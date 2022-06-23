@@ -20,14 +20,6 @@ def time2Seconds(time):
     return h + m + int(time[2])
 
 
-'''def string2Time(time):
-    time = time.split(':')
-    h = int(time[0])
-    m = int(time[1])
-    s = int(time[2])
-    return dt.timedelta(hours=h, minutes=m, seconds=s)'''
-
-
 def seconds2Time(seconds):
     h = seconds//3600
     m = (seconds%3600) // 60
